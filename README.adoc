@@ -1,0 +1,19 @@
+= Title: Subtitle
+Firstname Lastname <firstname.lastname@domain.com>
+:doctype: pdf
+:author: firstname lastname
+:subtitle: subtitle
+:ntitle: title: {subtitle}
+:imagesdir: ./images
+:class: classname
+:pdf-stylesdir: /templates/resources/themes
+:pdf-fontsdir: /templates/resources/fonts
+:pdf-style: tbz
+:allow-uri-read:
+:sectnums:
+:toc:
+:toc-title: Index
+:title-page:
+
+== First
+
