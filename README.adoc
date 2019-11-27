@@ -6,8 +6,8 @@ Firstname Lastname <firstname.lastname@domain.com>
 :ntitle: title: {subtitle}
 :imagesdir: ./images
 :class: classname
-:pdf-stylesdir: /templates/resources/themes
-:pdf-fontsdir: /templates/resources/fonts
+:pdf-stylesdir: /template/resources/themes
+:pdf-fontsdir: /template/resources/fonts
 :pdf-style: tbz
 :allow-uri-read:
 :sectnums:
