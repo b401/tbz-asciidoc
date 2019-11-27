@@ -1,3 +1,8 @@
+= TBZ adoc image with watchdog support
+
+Insert the following source ontop of your document:
+
+....
 = Title: Subtitle
 Firstname Lastname <firstname.lastname@domain.com>
 :doctype: pdf
@@ -16,4 +21,12 @@ Firstname Lastname <firstname.lastname@domain.com>
 :title-page:
 
 == First
+....
 
+
+Run image like this:
+....
+docker run -d -v $(pwd):/documents b401/tbz-ascii:latest
+....
+
+Everytime you save,create or move a __.adoc__ document it gets compiled to a pdf.
